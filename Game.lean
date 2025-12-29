@@ -62,7 +62,7 @@ Languages "en"   -- List of ISO 2-letter abbreviations
 /-! `CaptionShort` is the subtitle displayed above the image -/
 CaptionShort "A introduction to proofs in dependent type theory."
 /-! `CaptionLong` is the description of the game displayed below the image -/
-CaptionLong "The aim of this game will be to introduce proof writing using a formal vocabulary that is somewhat different from the one that most mathematicians learn, designed to make it easier to be fully precise about every step in a proof, as is required to convince a computer that a logical argument in sound. This formal vocabulary for mathematics, which is called `dependent type theory`, can be used in parallel to state and prove mathematical theorems and also specify and define examples of mathematical objects. 
+CaptionLong "The aim of this game will be to introduce proof writing using a formal vocabulary that is somewhat different from the one that most mathematicians learn, designed to make it easier to be fully precise about every step in a proof, as is required to convince a computer that a logical argument in sound. This formal vocabulary for mathematics &mdash; called dependent type theory &mdash; can be used in parallel to state and prove mathematical theorems and also to specify and define examples of mathematical objects. 
 "
 
 -- Prerequisites "" -- add this if your game depends on other games
