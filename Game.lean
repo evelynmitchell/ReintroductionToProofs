@@ -32,9 +32,9 @@ Mathematicians distinguish between the true propositions, the false ones, and th
 
 While the idea of a mathematical proof is over 2000 years old, the practice of proof writing continues to evolve. Today mathematicians may elect to use a tool called a computer proof assistant that can provide real-time feedback to a theorem prover about the status of a logical argument that is currently under development.
 
-The aim of this game will be to introduce proof writing in a computer proof assistant while developing skils that can be used to develop proofs in other contexts: on paper, in conversation with a friend, or in your head.
+The aim of this game will be to introduce proof writing in a computer proof assistant while developing skills that can be used to develop proofs in other contexts: on paper, in conversation with a friend, or in your head.
 
-There is one caveat to this introduction to proof writing, which we now address explicitly. The formal vocabulary we will introduce to discuss mathematical proofs is somewhat different from the one that most mathematicians learn. The mathematics we will be developing is essentially unchanged but the formal language introduced here will make it easier to be fully precise about every step in a proof, as is required to convince a computer that a logical argument in sound.
+There is one caveat to this introduction to proof writing, which we now address explicitly. The formal vocabulary we will introduce to discuss mathematical proofs is somewhat different from the one that most mathematicians learn. The mathematics we will be developing is essentially unchanged but the formal language introduced here will make it easier to be fully precise about every step in a proof, as is required to convince a computer that a logical argument in sound. 
 
 In particular, we will explore an analogy between mathematical *propositions* and another form of primitive mathematical structure called *types*. Examples of types include:
 
@@ -60,11 +60,10 @@ This was created using the GameSkeleton Github Repo from the Lean Games Server h
 /-! Information to be displayed on the servers landing page. -/
 Languages "en"   -- List of ISO 2-letter abbreviations
 /-! `CaptionShort` is the subtitle displayed above the image -/
-CaptionShort "A first year seminar course taught at Johns Hopkins University in Fall 2025"
+CaptionShort "A introduction to proofs in dependent type theory."
 /-! `CaptionLong` is the description of the game displayed below the image -/
-CaptionLong "Mathematicians from all over &mdash; most of whom have never met one another &mdash; nevertheless agree to an incredible extent about the nature of the mathematical universe. How did this degree of consensus come about?
-
-The aim of this game will be to introduce proof writing in a computer proof assistant while developing skils that can be used to develop proofs in other contexts: on paper, in conversation with a friend, or in your head."
+CaptionLong "The aim of this game will be to introduce proof writing using a formal vocabulary that is somewhat different from the one that most mathematicians learn. The mathematics we will be developing is essentially unchanged but the formal language introduced here will make it easier to be fully precise about every step in a proof, as is required to convince a computer that a logical argument in sound. This formal vocabulary for mathematics is called *dependent type theory*, and can be used in parallel to state and prove mathematical theorems and also specify and define examples of mathematical objects. 
+"
 
 -- Prerequisites "" -- add this if your game depends on other games
 CoverImage "images/blue-jay-curry-howard-blue.png"
