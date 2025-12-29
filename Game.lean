@@ -58,9 +58,14 @@ This was created using the GameSkeleton Github Repo from the Lean Games Server h
 "
 
 /-! Information to be displayed on the servers landing page. -/
-Languages "English"
-CaptionShort "ReintroToProofs"
-CaptionLong "Reintroduction to Proofs"
+Languages "en"   -- List of ISO 2-letter abbreviations
+/-! `CaptionShort` is the subtitle displayed above the image -/
+CaptionShort "A first year seminar course taught at Johns Hopkins University in Fall 2025"
+/-! `CaptionLong` is the description of the game displayed below the image -/
+CaptionLong "Mathematicians from all over &mdash; most of whom have never met one another &mdash; nevertheless agree to an incredible extent about the nature of the mathematical universe. How did this degree of consensus come about?
+
+The aim of this game will be to introduce proof writing in a computer proof assistant while developing skils that can be used to develop proofs in other contexts: on paper, in conversation with a friend, or in your head."
+
 -- Prerequisites "" -- add this if your game depends on other games
 CoverImage "images/blue-jay-curry-howard-blue.png"
 
