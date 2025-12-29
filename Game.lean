@@ -34,7 +34,7 @@ While the idea of a mathematical proof is over 2000 years old, the practice of p
 
 The aim of this game will be to introduce proof writing in a computer proof assistant while developing skills that can be used to develop proofs in other contexts: on paper, in conversation with a friend, or in your head.
 
-There is one caveat to this introduction to proof writing, which we now address explicitly. The formal vocabulary we will introduce to discuss mathematical proofs is somewhat different from the one that most mathematicians learn. The mathematics we will be developing is essentially unchanged but the formal language introduced here will make it easier to be fully precise about every step in a proof, as is required to convince a computer that a logical argument in sound. 
+There is one caveat to this introduction to proof writing, which we now address explicitly. The formal vocabulary we will introduce to discuss mathematical proofs is somewhat different from the one that most mathematicians learn. The mathematics we will be developing is essentially unchanged but the formal language introduced here will make it easier to be fully precise about every step in a proof, as is required to convince a computer that a logical argument is sound. 
 
 In particular, we will explore an analogy between mathematical *propositions* and another form of primitive mathematical structure called *types*. Examples of types include:
 
@@ -60,9 +60,11 @@ This was created using the GameSkeleton Github Repo from the Lean Games Server h
 /-! Information to be displayed on the servers landing page. -/
 Languages "en"   -- List of ISO 2-letter abbreviations
 /-! `CaptionShort` is the subtitle displayed above the image -/
-CaptionShort "A introduction to proofs in dependent type theory."
+CaptionShort "An introduction to proofs in dependent type theory."
 /-! `CaptionLong` is the description of the game displayed below the image -/
-CaptionLong "The aim of this game will be to introduce proof writing using a formal vocabulary that is somewhat different from the one that most mathematicians learn, designed to make it easier to be fully precise about every step in a proof, as is required to convince a computer that a logical argument in sound. This formal vocabulary for mathematics &mdash; called dependent type theory &mdash; can be used in parallel to state and prove mathematical theorems and also to specify and define examples of mathematical objects. 
+CaptionLong "This game introduces mathematical proof writing in a formal vocabulary that is designed to make it easier to be fully precise about every step in a proof, as is required to convince a computer that a logical argument is sound. 
+
+The language of dependent type theory can be used in parallel to state and prove mathematical theorems as well as to specify and define examples of mathematical objects. 
 "
 
 -- Prerequisites "" -- add this if your game depends on other games
